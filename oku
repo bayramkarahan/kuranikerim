@@ -1,0 +1,9 @@
+kurulum için konsolu açınız.
+
+sudo ./install.sh komutunu çalıtırınız.
+sistemi yeniden başlattığınızda ya da oturum kapatıp açtığınızda masaüstüne simge gelecektir.
+
+
+kaldırmak için konsolu açınız.
+
+sudo ./remove.sh komutunu çalıtırınız.

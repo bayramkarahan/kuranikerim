@@ -1,0 +1,11 @@
+Package: kuranikerim
+Version: 1
+Architecture: all
+Depends: 
+Pre-Depends:
+Recommends: 
+Maintainer: Bayram Karahan [bayramk@gmail.com]
+Conflicts: 
+Replaces: 
+Provides: kuranikerim
+Description: kuranikerim eklenti

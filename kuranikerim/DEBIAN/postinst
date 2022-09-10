@@ -1,0 +1,18 @@
+#!/bin/sh
+FILE="$HOME/Masaüstü/kuranw.desktop"
+cp /usr/share/applications/kuranw.desktop $FILE
+chmod 777 $FILE
+chown $USER:$USER $FILE
+cp -r $HOME/.wine-appimage/drive_c/Program\ Files\ \(x86\)/Diyanet\ YAYINLARI /opt/
+
+for item in $(ls /home)
+do
+#echo $item
+
+cp /usr/share/applications/kuranw.desktop /home/$item/Masaüstü/kuranw.desktop
+chmod 777 /home/$item/Masaüstü/kuranw.desktop
+chown $item:$item $FILE	
+done
+
+
+exit 0

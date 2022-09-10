@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for item in $(ls /home)
+do
+#echo $item
+rm -rf /home/$item/Masaüstü/kuranw.desktop
+	
+done
+
+
+exit 0

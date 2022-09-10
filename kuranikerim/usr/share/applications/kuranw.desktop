@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Kuran Application
+Name[tr]=Kur'an-ı Kerim
+Type=Application
+Comment=Simple Qt based Kuran Application
+Comment[tr]=Kur'an-ı Kerim Uygulaması
+Terminal=false
+Exec=/usr/bin/kuran-desktop.sh
+Icon=/usr/share/kuran/kuran.png
+Categories=Qt;Utility;
+Keywords=kuran;
+GenericName=Kur'an-ı Kerim
+Name[tr_TR.UTF-8]=Kur'an-ı Kerim
